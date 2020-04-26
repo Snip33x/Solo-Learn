@@ -1,0 +1,25 @@
+# What is the outpt of this code?
+list = [1,1,2,3,5,8,13]
+print(list[list][4]])
+# 8
+# So, first we have to solve the [list[4] part and that's 5. Then the result is (list[5])... and that's 8
+
+# What does this code do?
+for i in range(10):
+  if not i % 2 == 0:
+    print(i+1)
+# Print all the even numbers between 2 and 10
+
+# How many lines will this code print?
+while False:
+  print("Looping..."
+# Fill in the blanks to print the fist element of the list, if it contains even number of elements:
+list = [1,2,3,4]
+if len(list) % 2 == 0:
+  print(list[0])
+  
+# What does this code output?
+letters = ['x','y','z')
+letters.insert(1, 'w')
+print(letters[2])
+# y
