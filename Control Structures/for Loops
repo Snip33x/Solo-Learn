@@ -10,3 +10,13 @@ while counter <= max_index:
 # world!
 # spam!
 # eggs!
+
+# można otrzymać to samo korzystając z for in loopa
+words = ["Hello", "world", "spam", "eggs"]
+for word in words:
+  print(word + "!")
+  
+for i in range(5):
+  print("hello!")
+# 5 x hello wydrukuje  
+  
