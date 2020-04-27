@@ -1,0 +1,11 @@
+import random
+for i in range(10):
+  value = random.randint(1,20)
+  print(value)
+  
+from math import pi
+print(pi)
+
+# as jest do zmieniania nazwy tego co importujemy głównie żeby skrócić
+from math import sqrt as a
+print(a(100))
