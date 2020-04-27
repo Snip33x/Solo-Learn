@@ -1,0 +1,10 @@
+def cos(word):
+  print(word + "!")
+  
+ cos("spam")
+ cos("eggs")
+ cos("python")
+ 
+ # spam!
+ # eggs!
+ # python!
