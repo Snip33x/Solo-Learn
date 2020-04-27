@@ -1,10 +1,16 @@
 def cos(word):
   print(word + "!")
   
- cos("spam")
- cos("eggs")
- cos("python")
+cos("spam")
+cos("eggs")
+cos("python")
  
  # spam!
  # eggs!
  # python!
+
+# 2 argumenty
+def print_sum_twice(x,y):
+  print(x+y)
+  print(x-y)
+print_sum_twice(5,8)
