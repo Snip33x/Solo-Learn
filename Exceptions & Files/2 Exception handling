@@ -1,0 +1,19 @@
+try:
+  num1 = 7
+  num2 = 0
+  print(num1/num2)
+except ZeroDivisionError:
+  print("an error occoured")
+    
+try:
+  variable = 10
+  print(variable + "hello")  #( jak dodamy str do variable to zadziała)
+  print(variable / 2)
+except ZeroDivisionError:
+  print("an error occoured")
+except (ValueError, TypeError):
+  print("errorek")  
+  
+  # errorek
+  
+  # jak da się samo except bez podania jakiego błędu to wychwyci wszystkie
