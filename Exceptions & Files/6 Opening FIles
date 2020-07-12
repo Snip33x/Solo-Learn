@@ -1,0 +1,7 @@
+myfile = open("filename.txt")
+
+myfile = open("filename.txt", "r")  #"w" #rb - binary
+
+file.close() 
+
+# text_file.close()
