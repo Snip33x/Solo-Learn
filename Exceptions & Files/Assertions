@@ -1,0 +1,11 @@
+# Assertion to sprawdzanie swoich błędów a , exception dla błędów w kodach innych
+
+print(1)
+assert 2 +2 == 4
+print(2)
+assert 1+1 == 3
+print(3)
+# ucina program bo błędnym assercie
+
+temp = -10
+assert (temp>= 0), "Colder than absolute zero" - Assert z notyfikacją
