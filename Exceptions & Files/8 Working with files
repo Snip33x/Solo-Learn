@@ -1,0 +1,20 @@
+# upewnianie się że plik został zamknięty
+
+try:
+  f= open("filename.txt")
+  print(f.read())
+except FileNotFoundError:
+  print("No such file in directory")
+finally:
+  try:
+    f.close()
+  except:
+    print("Can't close file")
+    
+    
+''' An alternative way of doing this is using with statement. THis creates a temporary variable , which is onluy accessible in the indented block of the WITH statement'''
+
+with open("filename.txt") as f:
+  print(f.read())
+  
+# The file is automatically closed at the end of WITH statement, even if exceptions occur within it.
